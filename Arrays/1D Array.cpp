@@ -23,6 +23,12 @@ int main()
 
     //To modify an element we can just reassign it
     b[0] = 7;
+    
+    //We can also traverse an array like this
+    for(int& item: b)
+    {
+        cout<<" "<<item;
+    }
 
     //Sorting an array
     sort(b,b+size);
